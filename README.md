@@ -11,4 +11,4 @@ if (isMobile) {
 }
 ```
 
-View example here: [http://jsfiddle.net/](http://jsfiddle.net/pinceladasdaweb/kt6YC/)
+View example here: [http://jsfiddle.net/](http://jsfiddle.net/kt6YC/1/)
