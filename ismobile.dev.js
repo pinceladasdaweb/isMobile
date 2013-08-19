@@ -12,5 +12,5 @@ isMobile
 ;var isMobile = (function (userAgent) {
   'use strict';
 
-  return !!userAgent.match(/android|webos|iphone|ipad|ipod|opera mini|opera mobi|opera tablet|iemobile|windows phone|blackberry|bb10\; touch/);
-}(navigator.userAgent.toLowerCase()));
+  return !!userAgent.match(/android|webos|ip(hone|ad|od)|opera (mini|mobi|tablet)|iemobile|windows phone|blackberry|bb10\; touch/i);
+}(navigator.userAgent));
